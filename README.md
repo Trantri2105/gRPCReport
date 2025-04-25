@@ -61,7 +61,7 @@
         ```proto
         rpc BidiHello(stream HelloRequest) returns (stream HelloResponse);
         ```
-### 2. gRPC với Go
+### 3. gRPC với Go
 - Để sử dụng `gRPC` với `Go`, ta cần tải các `plugin` sau
     ```
     go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
